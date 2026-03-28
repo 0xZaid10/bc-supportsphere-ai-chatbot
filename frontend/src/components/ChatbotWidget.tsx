@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
-import LanguageContext from '../context/LanguageContext';
+import { useLanguage } from '../context/LanguageContext';
 import { Message } from '../types';
 import ChatMessage from './ChatMessage';
 import MessageInput from './MessageInput';
@@ -17,7 +17,7 @@ const ChatbotWidget: React.FC = () => {
   const [sessionId, setSessionId] = useState<string>('');
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-  const { language } = useContext(LanguageContext);
+  const { language } = useLanguage();
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

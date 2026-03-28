@@ -1,5 +1,5 @@
-import React, { useState, FormEvent, useContext } from 'react';
-import LanguageContext from '../context/LanguageContext';
+import React, { useState, FormEvent } from 'react';
+import { useLanguage } from '../context/LanguageContext';
 
 interface MessageInputProps {
   onSendMessage: (message: string) => void;
@@ -19,7 +19,7 @@ const translations = {
 
 const MessageInput: React.FC<MessageInputProps> = ({ onSendMessage, isLoading }) => {
   const [message, setMessage] = useState<string>('');
-  const { language } = useContext(LanguageContext);
+  const { language } = useLanguage();
   const t = translations[language];
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {

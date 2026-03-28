@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
-import LanguageContext from '../context/LanguageContext';
+import { useLanguage } from '../context/LanguageContext';
 import { Language } from '../types';
 
 const LanguageSelector: React.FC = () => {
-  const context = useContext(LanguageContext);
+  const context = useLanguage();
 
   if (!context) {
     throw new Error('LanguageSelector must be used within a LanguageProvider');

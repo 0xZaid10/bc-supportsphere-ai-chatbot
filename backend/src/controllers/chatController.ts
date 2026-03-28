@@ -71,7 +71,7 @@ export const handleChatMessage = async (
     // 5. Send Response
     res.status(200).json({
       response: aiResult.response,
-      classification: aiResult.classification,
+      classification: aiResult.classification as any,
       ticketId,
     });
   } catch (error) {

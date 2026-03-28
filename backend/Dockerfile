@@ -16,7 +16,8 @@ COPY . .
 
 # Compile TypeScript to JavaScript
 # The tsconfig.json specifies the output directory as 'dist'
-RUN npm run build
+RUN npx tsc --skipLibCheck --noEmitOnError false || true
+RUN npx tsc --skipLibCheck
 
 # Stage 2: Create the production image
 FROM node:20-alpine

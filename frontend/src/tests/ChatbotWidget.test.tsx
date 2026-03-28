@@ -1,8 +1,8 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import ChatbotWidget from '../components/ChatbotWidget';
-import { ChatProvider } from '../context/ChatContext';
-import { LanguageProvider } from '../context/LanguageContext';
+import ChatProvider from '../context/ChatContext';
+import LanguageProvider from '../context/LanguageContext';
 import useApiClient from '../hooks/useApiClient';
 
 // Mock the useApiClient hook

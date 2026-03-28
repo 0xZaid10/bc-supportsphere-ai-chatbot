@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useContext } from 'react';
-import { LanguageContext } from '../context/LanguageContext';
+import LanguageContext from '../context/LanguageContext';
 import { Message } from '../types';
 import ChatMessage from './ChatMessage';
 import MessageInput from './MessageInput';

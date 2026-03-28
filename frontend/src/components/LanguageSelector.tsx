@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { LanguageContext } from '../context/LanguageContext';
+import LanguageContext from '../context/LanguageContext';
 import { Language } from '../types';
 
 const LanguageSelector: React.FC = () => {

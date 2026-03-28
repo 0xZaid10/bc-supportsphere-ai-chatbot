@@ -1,5 +1,5 @@
 import React, { useState, FormEvent, useContext } from 'react';
-import { LanguageContext } from '../context/LanguageContext';
+import LanguageContext from '../context/LanguageContext';
 
 interface MessageInputProps {
   onSendMessage: (message: string) => void;

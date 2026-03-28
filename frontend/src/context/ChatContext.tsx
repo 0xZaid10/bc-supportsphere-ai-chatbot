@@ -1,6 +1,6 @@
 import React, { createContext, useState, useContext, ReactNode, useCallback, useEffect } from 'react';
 import { Message } from '../types';
-import { useApiClient } from '../hooks/useApiClient';
+import useApiClient from '../hooks/useApiClient';
 import { useLanguage } from './LanguageContext';
 
 interface ChatContextType {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-import { LanguageProvider } from './context/LanguageContext';
-import { ChatProvider } from './context/ChatContext';
+import LanguageProvider from './context/LanguageContext';
+import ChatProvider from './context/ChatContext';
 import ChatPage from './pages/ChatPage';
 import DashboardPage from './pages/DashboardPage';
 import logo from './assets/logo.svg';

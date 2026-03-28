@@ -1,0 +1,35 @@
+{
+  "translation": {
+    "nav": {
+      "chat": "Chat",
+      "dashboard": "Panel de Control"
+    },
+    "chat": {
+      "welcome": "¡Hola! Soy tu asistente de IA. ¿Cómo puedo ayudarte hoy?",
+      "input_placeholder": "Escribe tu mensaje...",
+      "send": "Enviar",
+      "typing": "Escribiendo...",
+      "ticket_created": "Se ha creado un ticket de soporte con el ID: {{ticketId}}. Un agente se pondrá en contacto contigo pronto."
+    },
+    "dashboard": {
+      "title": "Panel de Monitoreo en Tiempo Real",
+      "loading": "Cargando datos del panel...",
+      "error": "No se pudieron cargar los datos del panel. Por favor, inténtalo de nuevo más tarde.",
+      "total_tickets": "Tickets Totales",
+      "volume_chart_title": "Volumen de Tickets por Idioma",
+      "classification_chart_title": "Distribución de Tickets por Categoría",
+      "category": {
+        "technical_issue": "Problema Técnico",
+        "billing_inquiry": "Consulta de Facturación",
+        "general_question": "Pregunta General"
+      },
+      "language": {
+        "en": "Inglés",
+        "es": "Español"
+      }
+    },
+    "language_selector": {
+      "label": "Idioma"
+    }
+  }
+}

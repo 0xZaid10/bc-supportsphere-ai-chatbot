@@ -1,0 +1,37 @@
+{
+  "translation": {
+    "nav": {
+      "chat": "Chat",
+      "dashboard": "Dashboard"
+    },
+    "chat": {
+      "welcome": "Hello! How can I assist you today?",
+      "placeholder": "Type your message here...",
+      "send": "Send",
+      "ticketCreated": "A support ticket (ID: {{ticketId}}) has been created for you. A support agent will be in touch shortly.",
+      "error": "Sorry, I'm having trouble connecting. Please try again later.",
+      "typing": "AI is typing..."
+    },
+    "dashboard": {
+      "title": "Support Dashboard",
+      "loading": "Loading dashboard data...",
+      "error": "Failed to load dashboard data. Please try again.",
+      "totalTickets": "Total Tickets",
+      "ticketsByCategory": "Tickets by Category",
+      "ticketsByLanguage": "Tickets by Language",
+      "categories": {
+        "technical_issue": "Technical Issue",
+        "billing_inquiry": "Billing Inquiry",
+        "general_question": "General Question",
+        "unknown": "Unknown"
+      },
+      "languages": {
+        "en": "English",
+        "es": "Spanish"
+      }
+    },
+    "languageSelector": {
+      "label": "Language"
+    }
+  }
+}
